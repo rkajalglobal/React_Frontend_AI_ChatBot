@@ -16,7 +16,7 @@ def main():
 
     try:
         print("=" * 50)
-        print("Starting BEPEC AI Assistant")
+        print("Starting RUCHI AI Assistant")
         print("=" * 50)
 
         # STEP 1: Start FastAPI backend
@@ -54,12 +54,12 @@ def main():
         time.sleep(8)
 
         # STEP 4: Open browser
-        print("\nOpening BEPEC AI Assistant...")
+        print("\nOpening RUCHI AI Assistant...")
 
         webbrowser.open("http://localhost:3000")
 
         print("\n" + "=" * 50)
-        print("BEPEC AI Assistant is running!")
+        print("RUCHI AI Assistant is running!")
         print("Frontend: http://localhost:3000")
         print("Backend:  http://127.0.0.1:8000")
         print("Press Ctrl+C to stop the application.")
@@ -81,7 +81,7 @@ def main():
             time.sleep(1)
 
     except KeyboardInterrupt:
-        print("\nStopping BEPEC AI Assistant...")
+        print("\nStopping RUCHI AI Assistant...")
 
     except Exception as e:
         print(f"\nApplication error: {e}")
