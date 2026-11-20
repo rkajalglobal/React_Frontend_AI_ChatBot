@@ -19,7 +19,7 @@ def demo_chatbot():
     if not api_key:
         raise ValueError(
             "OPENAI_API_KEY not found. Create a .env file with: "
-            #  OPENAI_API_KEY="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"
+           
         )
     llm = ChatOpenAI(
         model="gpt-4o-mini",
